@@ -1,3 +1,9 @@
+Addon By Mackraken (mackraken2023@hotmail.com)
+Materials Files By meta-androcto
+to collaborate either send a message or pull request if you clone this repo.
+
+
+
 # #####BEGIN GPL LICENSE BLOCK #####
 #
 #  This program is free software; you can redistribute it and/or
@@ -32,9 +38,9 @@ bl_info = {
 MATLIB 5.6.1
 
 Installation:
-- AVOID USING THE INSTALL ADDON BUTTON
+
 - Copy the matlib folder inside Blender's addons.
-Example: D:\Blender\2.72\scripts\addon\
+Example: D:\Blender\2.76\scripts\addon\
 
 - Start Blender.
 - Goto File->User Preferences->Addons
@@ -51,6 +57,7 @@ v 0.5.6
 	Libraries are read from the matlib folder. If you want to change this behaviour, edit the variable "matlib_path" at line 40. (Untested)
 	
 	To delete a library delete the blend file within the matlib folder.
+        To Add a Library, Simply drop a new .blend file into the matlib directory.
 
 - Apply material to all selected objects.
 
